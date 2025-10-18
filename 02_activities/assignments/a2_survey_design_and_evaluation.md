@@ -40,30 +40,82 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `1` - Tech Company HR Scenario
 
 Describe the purpose of your survey:
+
 ```
-write your answer here...
+
+The purpose of this survey is to identify the factors contributing to the high turnover rates among entry- and lower-level employees in the company, and to gather actionable insights that can help improve employee satisfaction and retention.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+
+Target Population : Entry- and lower-level employees currently working in the company across various departments.
+Sampling frame : The company’s current HR database or employee roster listing all entry- and lower-level employees.
+Sampling Units : Individual employees at entry- and lower-level positions.
+Observational Units : Survey responses collected from these individual employees.
+Overall Sampling Strategy : A stratified random sampling approach will be used to ensure representation across different departments and roles within the entry- and lower-level employee group. This helps capture department-specific issues that might affect turnover.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been employed at this company?
+    * Less than 6 months
+    * 6 months to 1 year
+    * 1 to 2 years
+    * More than 2 years
+
+2. What is your current department or team? (Open-ended or dropdown list)
+
+3. How satisfied are you with your current job overall?
+    * Very satisfied
+    * Satisfied
+    * Neutral
+    * Dissatisfied
+    * Very dissatisfied
+
+4. What factors influenced your decision to join the company? (Select all that apply)
+    * Salary/compensation
+    * Benefits
+    * Career growth opportunities
+    * Work environment
+    * Company reputation
+    * Other (please specify)
+
+5. How can the company support you better to increase your productivity and job satisfaction? (Select all that apply)
+    * Improve salary/compensation
+    * Provide more career development opportunities
+    * Enhance management and supervision
+    * Support better work-life balance
+    * Increase recognition and appreciation
+    * Foster a positive company culture
+    * Other (please specify)
+
+6. How supported do you feel by your immediate supervisor or manager?
+    * Very supported
+    * Somewhat supported
+    * Neutral
+    * Somewhat unsupported
+    * Very unsupported
+
+7. Do you feel your skills and talents are effectively utilized in your current role?
+    * Yes
+    * Somewhat
+    * No
+
+8. Are there any other changes or improvements you would suggest to make this company a better place to work? (Open-ended)
+
+9. In the past 6 months, how often have you thought about your future with the company?
+    * Frequently
+    * Occasionally
+    * Rarely
+    * Never
+
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +123,50 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+SURVEY FEATURES AND EVALUATION
+
+Sample type
+The GSS GVP 2018 is a probability‑based household survey (i.e. respondents are selected randomly from a well‑defined frame) rather than a convenience sample.
+
+Sample size
+The 2018 General Social Survey (GSS) on Giving, Volunteering, and Participating aimed to collect data from approximately 16,000 respondents across 10 Canadian provinces. This sample size allows for robust analysis of social behaviors and trends at the national and provincial levels.
+
+
+Target population
+Persons aged 15 years and older living in private households in the 10 Canadian provinces (excluding residents of institutions and excluding territories such as Yukon, Northwest Territories, and Nunavut).
+
+Sampling frame
+The frame is constructed from the dwelling / household listing in the provinces, excluding institutional populations and excluding those living in territories or non‑household settings.
+
+Survey mode(s)
+The survey used mixed modes: an electronic questionnaire (online) plus telephone interviewing.
+
+Timeline
+Data collection was carried out during 2018. The Public Use Microdata File (PUMF) and user documentation were released January 26, 2021.
+
+Response rate
+The overall response rate is not explicitly stated in the main summary documents. However, methodological reports and technical papers related to the 2018 GSS (Cycle 33) indicate that the provincial response rate was approximately 41.9%. This figure is widely accepted in academic and government sources.
+
+Weights
+Sampling weights are applied to correct for unequal probabilities of selection and nonresponse, so that weighted estimates better represent the target population.
+
+Data processing / cleaning / imputation
+The documentation describes applying edit rules, consistency checks, recoding, handling of missing or invalid responses, and suppression / masking to protect confidentiality. Nonresponse adjustments are integrated via weighting methods.
+
+Sources of error / limitations / known biases
+
+    * Nonresponse bias: Individuals who decline to respond or are unreachable may differ systematically from respondents.
+    * Measurement error: Respondents may misinterpret questions or misreport due to recall errors or social desirability.
+    * Coverage error: Exclusion of institutional residents and territories limits representativeness of those groups.
+    * Mode effects: Responses may differ between online and telephone modes (mode bias).
+    * Confidentiality suppression / editing: For privacy, rare categories or small cell counts may be suppressed or coarsened, limiting fine-grained analysis.
+
+Link to documentation & additional sources
+
+GSS GVP 2018 Public Use Microdata File Documentation & User Guide, Statistics Canada: https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+
+Methodology and comparisons across GSS cycles discussing response rates : https://www150.statcan.gc.ca/n1/pub/89f0115x/89f0115x2019001-eng.htm
+
 ```
 
 ## Rubric
